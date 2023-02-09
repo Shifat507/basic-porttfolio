@@ -17,7 +17,8 @@
     font-size: 15px;
     padding: 18px 35px;
 }
-.btn-contact{
+
+.btn-contact {
     height: 64px;
     border-radius: 5px;
     color: #FD6E0A;
@@ -25,11 +26,19 @@
     font-size: 15px;
     padding: 18px 35px;
 }
-i{
+
+i {
     padding: 0 5px;
 }
 
 /* Header and Navigation Style */
+.header {
+    background-color: FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -75,4 +84,38 @@ nav li {
 .author-name {
     font-weight: 700;
     font-size: 60px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section styles */
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-info{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.info-title{
+    color: #757575;;
 }
